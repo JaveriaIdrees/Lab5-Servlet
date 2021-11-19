@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<title>Sign up from</title>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<div class="form_wrapper">
+    <div class="form_container">
+        <div class="title_container">
+            <h2>Sign Up </h2>
+        </div>
+        <div class="row clearfix">
+            <div class="">
+                <form method="get" action="validate">
+                    <div class="row clearfix">
+                        <div class="col_half">
+                            <label> <strong> First Name </strong> </label>
+                            </br>   </br>
+                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                <input type="text" name="firstname" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="col_half">
+                            <label> <strong> Last Name </strong> </label>
+                            </br>   </br>
+                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                <input type="text" name="lastname" placeholder="Last Name"   />
+                            </div>
+                        </div>
+                        <div class="col_half">
+                            <label> <strong> City </strong> </label>
+                        </br>   </br>
+                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                <input type="text" name="city" placeholder="City"  />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="input_field radio_option">
+                        <input type="radio" name="gender" id="rd1" value="Male">
+                        <label for="rd1">Male</label>
+                        <input type="radio" name="gender" id="rd2" value="Female">
+                        <label for="rd2">Female</label>
+                    </div>
+                    <div class="input_field select_option">
+                        <select name="country">
+                            <option value="Not Selected">Select a country</option>
+                            <option   value="UnitedStates">United States</option>
+                            <option  value="Pakistan">Pakistan</option>
+                        </select>
+                        <div class="select_arrow"></div>
+                    </div>
+                    <div class="input_field checkbox_option">
+                        <input type="checkbox" id="cb1">
+                        <label for="cb1">Accept Agreement</label>
+                    </div>
+
+                    <input style="background-color: black; color: white" class="button" type="submit" value="Register" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
